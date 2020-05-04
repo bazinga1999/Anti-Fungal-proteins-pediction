@@ -21,11 +21,8 @@ import copy
 #         print(os.path.join(dirname, filename))
 
 
-train = pd.read_csv (r'/kaggle/input/iqb2020/train.csv')
-test = pd.read_csv (r'/kaggle/input/iqb2020/sample.csv')
-sample = pd.read_csv (r'/kaggle/input/iqb2020/sample.csv')
-
-
+train = pd.read_csv ("path to training data")
+test = pd.read_csv ("path to testing data"')
 
 sequences = train["Sequence"]
 final_train = train["Lable"]
